@@ -27,6 +27,9 @@ const Feed = () => {
                 setLoading(false);
             });
         }
+
+        return setPins([]);
+
     }, [categoryId]);
     const ideaName = categoryId || "new";
     if (loading) {
@@ -36,6 +39,7 @@ const Feed = () => {
             />
         );
     }
+    console.log(pins);
     return <div>{pins && <MasonryLayout pins={pins} />}</div>;
 };
 

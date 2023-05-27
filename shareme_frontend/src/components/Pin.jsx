@@ -69,6 +69,7 @@ const Pin = ({ pin }) => {
                         className='w-full rounded-lg '
                         src={urlFor(image).width(250).url()}
                         alt='user-post'
+                        loading="lazy"
                     />
                 )}
                 {postHovered && (

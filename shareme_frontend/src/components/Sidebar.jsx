@@ -35,7 +35,7 @@ const Sidebar = ({ closeToggle, user }) => {
                         Home
                     </NavLink>
                     <h3 className='px-5 mt-2 text-base 2xl:text-xl'>
-                        Discover cateogries
+                        Discover categories
                     </h3>
                     {categories
                         .slice(0, categories.length - 1)
