@@ -1,2 +1,2 @@
-# shareme
+# shareme - Pinterest Clone
  
